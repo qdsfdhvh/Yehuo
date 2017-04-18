@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_search"
+            android:checkable="true"
+            android:icon="@drawable/ic_search_white_24dp"
+            android:title="搜索"/>
+        <item
+            android:id="@+id/drawer_comic"
+            android:checkable="true"
+            android:icon="@drawable/ic_import_contacts_white_24dp"
+            android:title="里番"/>
+        <item
+            android:id="@+id/drawer_like"
+            android:checkable="true"
+            android:icon="@drawable/ic_like_white_24dp"
+            android:title="收藏"/>
+        <item
+            android:id="@+id/drawer_hist"
+            android:checkable="true"
+            android:icon="@drawable/ic_history_white_24dp"
+            android:title="历史"/>
+        <item
+            android:id="@+id/drawer_sited"
+            android:checkable="true"
+            android:icon="@drawable/ic_extension_white_24dp"
+            android:title="扩展"/>
+    </group>
+</menu>

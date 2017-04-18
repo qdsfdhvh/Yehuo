@@ -1,0 +1,30 @@
+<resources>
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryPink</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryPinkDark</item>
+        <item name="colorAccent">@color/colorPrimaryPinkDark</item>
+        <item name="android:listDivider">@drawable/divider_bg</item>
+    </style>
+
+    <style name="AppTheme" parent="BaseTheme">
+        <item name="alertDialogTheme">@style/DialogThemePink</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.TransparentStatusBar" parent="AppTheme.NoActionBar" />
+
+
+    <style name="DialogThemePink" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimaryPinkDark</item>
+    </style>
+
+    <style name="TextInputTheme">
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+    tools:context="com.dian.yunbo.ui.activity.MoreActivity">
+    <include layout="@layout/custom_toolbar"/>
+    <zlc.season.practicalrecyclerview.PracticalRecyclerView
+        android:id="@+id/recView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:load_more_layout="@layout/zlc_manual_load_layout"
+        app:loading_layout="@layout/custom_progress_bar"/>
+</LinearLayout>

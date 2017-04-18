@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">野火云</string>
+    <string name="click_to_prev">上一页</string>
+    <string name="click_to_load">下一页</string>
+    <string name="action_search">搜索</string>
+    <string name="search_hint">关键字or磁力链接</string>
+    <string name="load_more_failed">没有更多了</string>
+    <string name="info_play">播放</string>
+    <string name="info_down">下载</string>
+    <string name="head_more">更多</string>
+    <string name="action_hist">历史</string>
+    <string name="action_delete">清空</string>
+    <string name="dialog_to">跳转到：</string>
+    <string name="dialog_page">页</string>
+    <string name="center">确认</string>
+    <string name="cancel">取消</string>
+
+
+    <string name="mnPlayerNoNetHint">当前网络不可用,检查网络设置</string>
+    <string name="mnPlayerUrlEmptyHint">播放地址为空</string>
+    <string name="mnPlayerPlayFailHint">视频播放失败</string>
+    <string name="mnPlayerMobileNetHint">请注意,当前网络状态切换为3G/4G网络</string>
+
+    <string name="root_path">/</string>
+    <string name="go_back_to_parent_folder">返回上一级目录</string>
+    <!-- <string name="empty" translatable="否"></string>-->
+
+    <string name="PLAYRT_SETTING">设置</string>
+    <string name="title_activity_player">PlayerActivity</string>
+    <string name="dummy_button">自动隐藏</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="PLAYRT_PLAY">播放</string>
+    <string name="PLAYRT_PAUSE">暂停</string>
+    <string name="PLAYRT_RESTART">重置</string>
+    <string name="title_activity_settings">设置</string>
+
+    <string name="PREF_HARD_WARE_SETTING">硬解设置</string>
+    <string name="PREF_HARD_WARE_DECODE_USE">启用硬解</string>
+    <!--<string name="PREF_HARD_WARE_DECODE_SUPPORT">HardWareDecodSupport</string>-->
+    <string name="PREF_HARD_WARE_DECODE_DETEC">侦测硬解是否可用</string>
+
+    <string name="PREF_HTTP_PARAM">HTTP参数</string>
+    <string name="PREF_HTTP_COOKIE">Cookie</string>
+    <string name="PREF_HTTP_REFERER">Referer</string>
+    <string name="PREF_HTTP_CUSTOM_HEADERS">CustomHeaders</string>
+    <string name="PREF_HTTP_USER_AGENT">UserAgent</string>
+
+    <string name="PREF_NET_PARAM">网络设置</string>
+    <string name="PREF_NET_BUFFER_ENTER">进入缓冲门限(ms)</string>
+    <string name="PREF_NET_BUFFER_LEAVE">缓冲离开门限(package)</string>
+    <string name="PREF_NET_BUFFER_READ">预加载帧大小(package)</string>
+    <string name="PREF_NET_SEEKBUFFER_WAITTIME">偏移后进入缓冲前置时间(ms)</string>
+    <string name="PREF_NET_BUFFER_READ_TIME">预加载时间(ms)</string>
+
+    <string name="PREF_VR_PARAM">VR设置</string>
+    <string name="PREF_VR_ENABLE">启用VR</string>
+    <string name="PREF_VR_MODE">VR模式</string>
+    <!--<string name="PREF_VR_ROTATE">VRRotate</string>-->
+    <string name="PREF_VR_FOVY">VR视角</string>
+    <string name="PREF_VR_INNER_TOUCH_ROTATE">VR触摸旋转</string>
+
+    <string name="POPWND_VIDEO_DECODE">解码器</string>
+    <string name="POPWND_VIDEO_DECODE_HARDWARE">硬解</string>
+    <string name="POPWND_VIDEO_DECODE_SOFTWARE">软解</string>
+
+    <string name="POPWND_VIDEO_RATIO">画面比例</string>
+    <string name="POPWND_VIDEO_RATIO_FULL_SCREEN">全屏</string>
+    <string name="POPWND_VIDEO_RATIO_NATIVE">原始比例</string>
+
+    <string name="POPWND_AUDIO">音轨</string>
+
+    <string name="POPWND_SUBTITLE">字幕</string>
+    <string name="POPWND_SUBTITLE_USABLE">字幕可用</string>
+    <string name="POPWND_SUBTITLE_SHOW">显示字幕</string>
+    <string name="POPWND_SUBTITLE_EXT_NAME">支持类型</string>
+    <string name="POPWND_SUBTITLE_FILE_PATH">字幕路径</string>
+    <string name="POPWND_SUBTITLE_LIST">字幕列表</string>
+    <string name="POPWND_RECORD">录制</string>
+    <string name="info_like">收藏</string>
+
+</resources>

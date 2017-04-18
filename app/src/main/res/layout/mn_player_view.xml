@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <SurfaceView
+            android:id="@+id/mn_palyer_surfaceView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+        <include layout="@layout/mn_player_progress_view" />
+        <TextView
+            android:id="@+id/play_buffering_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1:08:28"
+            android:textColor="@color/colorPlayerWhite"
+            android:layout_gravity="center_vertical"
+            android:textSize="35sp"
+            android:layout_marginBottom="141dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/mn_rl_bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@color/colorPlayerBlackTrans"
+        android:visibility="visible">
+        <ImageView
+            android:id="@+id/mn_iv_play_pause"
+            android:layout_width="50dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/mn_player_play"
+            android:contentDescription="@string/app_name"/>
+        <ImageView
+            android:id="@+id/mn_iv_fullScreen"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:src="@drawable/mn_player_ic_fullscreen"
+            android:contentDescription="@string/app_name"
+            android:visibility="gone"/>
+        <SeekBar
+            android:id="@+id/mn_seekBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="6dp"
+            android:layout_marginEnd="6dp"
+            android:maxHeight="4dp"
+            android:minHeight="4dp"
+            android:progressDrawable="@drawable/mn_player_progress_diy"
+            android:thumb="@drawable/mn_player_thumb"
+            android:thumbOffset="6dp" />
+        <TextView
+            android:id="@+id/mn_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:text="00:00 / 00:00"
+            android:textColor="@color/colorPlayerWhite" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/mn_rl_top_menu"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:background="@color/colorPlayerBlackTrans"
+        android:visibility="invisible">
+        <ImageView
+            android:id="@+id/mn_iv_back"
+            android:layout_width="50dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/mn_player_back"
+            android:contentDescription="@string/app_name"/>
+        <TextView
+            android:id="@+id/mn_tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="@color/colorPlayerWhite"
+            android:textSize="18sp" />
+        <ImageView
+            android:id="@+id/mn_iv_battery"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:paddingBottom="3dp"
+            android:src="@drawable/mn_player_battery_05"
+            android:contentDescription="@string/app_name"
+            android:visibility="visible" />
+        <TextView
+            android:id="@+id/mn_tv_system_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="00:00"
+            android:textColor="@color/colorPlayerWhite"
+            android:textSize="12sp" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/mn_player_iv_lock"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/mn_palyer_black_circle"
+        android:padding="0dp"
+        android:src="@drawable/mn_player_landscape_screen_lock_open"
+        android:visibility="visible"
+        android:contentDescription="@string/app_name" />
+    <include layout="@layout/mn_gesture_volume_layout" />
+    <include layout="@layout/mn_gesture_light_layout" />
+    <include layout="@layout/mn_gesture_progress_layout" />
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_down"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/info_down"
+        android:icon="@drawable/ic_download_white_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <!--<group android:checkableBehavior="single">-->
+        <!--<item-->
+            <!--android:id="@+id/search_btso"-->
+            <!--android:checked="true"-->
+            <!--android:orderInCategory="100"-->
+            <!--android:title="btso"-->
+            <!--app:showAsAction="never"/>-->
+        <!--<item-->
+            <!--android:id="@+id/search_torrentkitty"-->
+            <!--android:orderInCategory="100"-->
+            <!--android:title="TK"-->
+            <!--app:showAsAction="never"/>-->
+        <!--<item-->
+            <!--android:id="@+id/search_find2"-->
+            <!--android:orderInCategory="100"-->
+            <!--android:title="接口2"-->
+            <!--app:showAsAction="never"/>-->
+        <!--<item-->
+            <!--android:id="@+id/search_find3"-->
+            <!--android:orderInCategory="100"-->
+            <!--android:title="接口3"-->
+            <!--app:showAsAction="never"/>-->
+        <!--<item-->
+            <!--android:id="@+id/search_find5"-->
+            <!--android:orderInCategory="100"-->
+            <!--android:title="接口5"-->
+            <!--app:showAsAction="never"/>-->
+    <!--</group>-->
+
+</menu>
